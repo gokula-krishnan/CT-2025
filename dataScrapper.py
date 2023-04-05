@@ -1,10 +1,18 @@
 import requests
 import json
-import sys
+import os
 from Player import Player
-from BattingPerformance import BattingPerformance 
+from dotenv import load_dotenv
+from BattingPerformance import BattingPerformance
 from BowlingPerformance import BowlingPerformance 
 from FieldingPerformance import FieldingPerformance
+
+load_dotenv()
+
+matchStartId = int(os.getenv("MATCH_START_ID"))
+matchEndId = int(os.getenv("MATCH_END_ID"))
+match_url = os.getenv("MATCH_URL")
+series_id = os.getenv("SERIES_ID")
 
 
 def getBattingPerformance(id, inningsData):
@@ -50,17 +58,12 @@ def getFieldingPerformance(id, inningsData):
     return 0
 
 
-#Enter match id accordingly
-
-matchStartId = input("Enter start match id : ")
-matchEndId = input("Enter end match id : ")
-
 for i in range(int(matchStartId), int(matchEndId)+1):
     print(i)
     currentMatchId = i
-    requestURL = "https://hs-consumer-api.espncricinfo.com/v1/pages/match/scorecard?lang=en&seriesId=1345038&matchId={0}".format(str(currentMatchId))
+    requestURL = match_url+"?lang=en&seriesId="+series_id+"&matchId={0}".format(str(currentMatchId))
 
-    matchResponseData = requests.get(url = requestURL)
+    matchResponseData = requests.get(url=requestURL)
     matchData = matchResponseData.json()
     teams = matchData["match"]["teams"]
 
@@ -147,5 +150,5 @@ for i in range(int(matchStartId), int(matchEndId)+1):
                 ]
             })
 
-    with open("sample.json","w") as f:
+    with open("sample.json", "w") as f:
         json.dump(pointsData, f)
