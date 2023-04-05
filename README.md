@@ -10,7 +10,7 @@ This python script scraps ipl match scores and applies custom points based on pl
 4. Run `python playerDetailsScrapper.py` - This will fetch the players list and map them to their respective identities.After this step, the `players.csv` and `teams.csv` will be populated with their respective content.
 5. Run `python dataScrapper.py`.Make sure all these match IDs are available.
 6. Copy content from sample.json and paste in Data/playerPoints.json file.
-7. Run `python final_team-points.py` - This will fetch all auction team points.
+7. Run `python final_team_points.py` - This will fetch all auction team points.
 <br>
 <hr>
 
