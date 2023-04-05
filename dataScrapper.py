@@ -152,3 +152,9 @@ for i in range(int(matchStartId), int(matchEndId)+1):
 
     with open("sample.json", "w") as f:
         json.dump(pointsData, f)
+
+with open("sample.json", "r") as jsonFile:
+    final_points_data = json.load(jsonFile)
+
+with open("./Data/playerPoints.json", "w") as f:
+    json.dump(pointsData, f)
