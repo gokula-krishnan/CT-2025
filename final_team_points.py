@@ -17,14 +17,15 @@ for team in teamListData:
     # initialise team in results blob
     results[team] = ''
     # initialise pointSum for each team
-    pointSum = 0
+    pointSum = []
     # for each player in team list, get points and add to pointSum
     for player in playersList:
-        point = [x['totalPoints'] for x in pointsData['Players'] if x['id'] == player]
-        if len(point) != 0:
-            pointSum += point.pop()
+        for x in pointsData['Players']:
+            if x['id'] == player:
+                pointSum.append(x['totalPoints'])
+                pointSum.extend([25 for match in x['scores'] if match['isMOTM']])
     # store to the results blob
-    results[team] = pointSum
+    results[team] = sum(pointSum)
 
 # sort by points
 sortList = sorted(results.items(), key=lambda x: x[1],reverse=True)

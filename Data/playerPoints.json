@@ -205,7 +205,7 @@
           "bowlingPoints": 157,
           "fieldingPoints": 0,
           "points": 188,
-          "isMOTM": false
+          "isMOTM": true
         }
       ]
     },
@@ -811,7 +811,7 @@
           "bowlingPoints": 0,
           "fieldingPoints": 0,
           "points": 110,
-          "isMOTM": false
+          "isMOTM": true
         }
       ]
     },
@@ -1005,7 +1005,7 @@
           "bowlingPoints": 82,
           "fieldingPoints": 15,
           "points": 119,
-          "isMOTM": false
+          "isMOTM": true
         },
         {
           "matchId": 1359481,
@@ -1841,7 +1841,7 @@
           "bowlingPoints": 127,
           "fieldingPoints": 0,
           "points": 127,
-          "isMOTM": false
+          "isMOTM": true
         },
         {
           "matchId": 1359482,
@@ -1930,7 +1930,7 @@
           "bowlingPoints": 154,
           "fieldingPoints": 15,
           "points": 169,
-          "isMOTM": false
+          "isMOTM": true
         }
       ]
     },
@@ -2358,7 +2358,7 @@
           "bowlingPoints": 38,
           "fieldingPoints": 15,
           "points": 207,
-          "isMOTM": false
+          "isMOTM": true
         }
       ]
     },
@@ -3145,7 +3145,7 @@
           "bowlingPoints": 251,
           "fieldingPoints": 0,
           "points": 251,
-          "isMOTM": false
+          "isMOTM": true
         },
         {
           "matchId": 1359480,
@@ -3857,7 +3857,7 @@
           "bowlingPoints": 0,
           "fieldingPoints": 15,
           "points": 144,
-          "isMOTM": false
+          "isMOTM": true
         },
         {
           "matchId": 1359482,
@@ -5183,7 +5183,7 @@
           "bowlingPoints": 0,
           "fieldingPoints": 15,
           "points": 166,
-          "isMOTM": false
+          "isMOTM": true
         },
         {
           "matchId": 1359483,
