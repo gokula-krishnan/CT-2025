@@ -157,4 +157,4 @@ with open("sample.json", "r") as jsonFile:
     final_points_data = json.load(jsonFile)
 
 with open("./Data/playerPoints.json", "w") as f:
-    json.dump(pointsData, f)
+    json.dump(final_points_data, f)
