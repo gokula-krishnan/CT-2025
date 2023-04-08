@@ -205,7 +205,7 @@
           "bowlingPoints": 157,
           "fieldingPoints": 0,
           "points": 188,
-          "isMOTM": false
+          "isMOTM": true
         }
       ]
     },
@@ -811,7 +811,7 @@
           "bowlingPoints": 0,
           "fieldingPoints": 0,
           "points": 110,
-          "isMOTM": false
+          "isMOTM": true
         }
       ]
     },
@@ -1005,7 +1005,7 @@
           "bowlingPoints": 82,
           "fieldingPoints": 15,
           "points": 119,
-          "isMOTM": false
+          "isMOTM": true
         },
         {
           "matchId": 1359481,
@@ -1841,7 +1841,7 @@
           "bowlingPoints": 127,
           "fieldingPoints": 0,
           "points": 127,
-          "isMOTM": false
+          "isMOTM": true
         },
         {
           "matchId": 1359482,
@@ -1930,7 +1930,7 @@
           "bowlingPoints": 154,
           "fieldingPoints": 15,
           "points": 169,
-          "isMOTM": false
+          "isMOTM": true
         }
       ]
     },
@@ -2358,7 +2358,7 @@
           "bowlingPoints": 38,
           "fieldingPoints": 15,
           "points": 207,
-          "isMOTM": false
+          "isMOTM": true
         }
       ]
     },
@@ -3359,7 +3359,7 @@
           "bowlingPoints": 251,
           "fieldingPoints": 0,
           "points": 251,
-          "isMOTM": false
+          "isMOTM": true
         },
         {
           "matchId": 1359480,
@@ -4071,7 +4071,7 @@
           "bowlingPoints": 0,
           "fieldingPoints": 15,
           "points": 144,
-          "isMOTM": false
+          "isMOTM": true
         },
         {
           "matchId": 1359482,
@@ -5631,7 +5631,7 @@
           "bowlingPoints": 0,
           "fieldingPoints": 15,
           "points": 166,
-          "isMOTM": false
+          "isMOTM": true
         },
         {
           "matchId": 1359483,
@@ -6492,32 +6492,6 @@
       ]
     },
     {
-      "id": 72505,
-      "name": "Romario Shepherd",
-      "teamId": 6903,
-      "totalPoints": -11,
-      "scores": [
-        {
-          "matchId": 1359484,
-          "opponentTeamId": 5143,
-          "battingPerformance": {
-            "runs": 0,
-            "balls": 1,
-            "fours": 0,
-            "sixes": 0,
-            "isOut": true
-          },
-          "bowlingPerformance": {},
-          "fieldingPerformance": {},
-          "battingPoints": -11,
-          "bowlingPoints": 0,
-          "fieldingPoints": 0,
-          "points": -11,
-          "isMOTM": false
-        }
-      ]
-    },
-    {
       "id": 12562,
       "name": "Amit Mishra",
       "teamId": 6903,
@@ -6550,6 +6524,32 @@
           "bowlingPoints": 85,
           "fieldingPoints": 15,
           "points": 100,
+          "isMOTM": false
+        }
+      ]
+    },
+    {
+      "id": 72505,
+      "name": "Romario Shepherd",
+      "teamId": 6903,
+      "totalPoints": -11,
+      "scores": [
+        {
+          "matchId": 1359484,
+          "opponentTeamId": 5143,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 1,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": -11,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": -11,
           "isMOTM": false
         }
       ]

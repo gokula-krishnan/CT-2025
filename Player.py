@@ -12,7 +12,7 @@ class Player:
     CATCH_POINTS = 15
     RUNOUT_POINTS = 10
 
-    def __init__(self, id, name, teamId, battingPerfmance, bowlingPerformance, fieldingPerformance, bonus):
+    def __init__(self, id, name, teamId, battingPerfmance, bowlingPerformance, fieldingPerformance, bonus, is_motm):
         self.id = id
         self.name = name
         self.teamId = teamId
@@ -20,6 +20,8 @@ class Player:
         self.bowlingPerformance = bowlingPerformance
         self.fieldingPerformance = fieldingPerformance
         self.bonus = bonus
+        self.is_motm = is_motm
+
 
     
     def get_data(self):
@@ -130,4 +132,4 @@ class Player:
 
         points = battingPoints + bowlingPoints + fieldingPoints
         
-        return [points, battingPoints, bowlingPoints, fieldingPoints]
+        return [points, battingPoints, bowlingPoints, fieldingPoints, self.is_motm]

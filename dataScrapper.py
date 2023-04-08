@@ -58,6 +58,14 @@ def getFieldingPerformance(id, inningsData):
     return 0
 
 
+def get_motm_award(player_id, match_player_awards):
+    is_motm = False
+    if len(match_player_awards) != 0:
+        if match_player_awards[0]["player"]["id"] == player_id:
+            is_motm = True
+    return is_motm
+
+
 for i in range(int(matchStartId), int(matchEndId)+1):
     print(i)
     currentMatchId = i
@@ -73,7 +81,7 @@ for i in range(int(matchStartId), int(matchEndId)+1):
 
     for playersForATeam in matchData["content"]["matchPlayers"]["teamPlayers"]:
         for player in playersForATeam["players"]:
-            playerInfo = Player(player["player"]["id"], player["player"]["longName"], playersForATeam["team"]["id"], getBattingPerformance(player["player"]["id"], matchData["content"]["innings"]), getBowlingPerformance(player["player"]["id"], matchData["content"]["innings"]) ,getFieldingPerformance(player["player"]["id"], matchData["content"]["innings"]), 0)
+            playerInfo = Player(player["player"]["id"], player["player"]["longName"], playersForATeam["team"]["id"], getBattingPerformance(player["player"]["id"], matchData["content"]["innings"]), getBowlingPerformance(player["player"]["id"], matchData["content"]["innings"]), getFieldingPerformance(player["player"]["id"], matchData["content"]["innings"]), 0, get_motm_award(player["player"]["id"], matchData["content"]["matchPlayerAwards"]))
             playerInformationDictionary[player["player"]["id"]] = playerInfo
 
     pointsList = []
@@ -97,7 +105,7 @@ for i in range(int(matchStartId), int(matchEndId)+1):
                     matchCounter = matchCounter + 1
                     if match["matchId"] == currentMatchId:
                         matchFound = True
-                        prevMotm = pointsData["Players"][counter]["scores"][matchCounter]["isMOTM"]
+                        #prevMotm = pointsData["Players"][counter]["scores"][matchCounter]["isMOTM"]
                         prevPoints = pointsData["Players"][counter]["scores"][matchCounter]["points"]
                         pointsData["Players"][counter]["scores"][matchCounter]["matchId"] = currentMatchId
                         pointsData["Players"][counter]["scores"][matchCounter]["opponentTeamId"] = abs(teamIdCount - playerData["teamId"])
@@ -108,7 +116,8 @@ for i in range(int(matchStartId), int(matchEndId)+1):
                         pointsData["Players"][counter]["scores"][matchCounter]["bowlingPoints"] = playerPoints[2]
                         pointsData["Players"][counter]["scores"][matchCounter]["fieldingPoints"] = playerPoints[3]
                         pointsData["Players"][counter]["scores"][matchCounter]["points"] = playerPoints[0]
-                        pointsData["Players"][counter]["scores"][matchCounter]["isMOTM"] = prevMotm
+                        #pointsData["Players"][counter]["scores"][matchCounter]["isMOTM"] = prevMotm
+                        pointsData["Players"][counter]["scores"][matchCounter]["isMOTM"] = playerPoints[4]
                         pointsData["Players"][counter]["totalPoints"] -= prevPoints
                         break
 
@@ -123,7 +132,7 @@ for i in range(int(matchStartId), int(matchEndId)+1):
                         "bowlingPoints": playerPoints[2],
                         "fieldingPoints": playerPoints[3],
                         "points": playerPoints[0],
-                        "isMOTM": False
+                        "isMOTM": playerPoints[4]
                     })
                 pointsData["Players"][counter]["totalPoints"] += playerPoints[0]
                 break
@@ -145,7 +154,7 @@ for i in range(int(matchStartId), int(matchEndId)+1):
                         "bowlingPoints": playerPoints[2],
                         "fieldingPoints": playerPoints[3],
                         "points": playerPoints[0],
-                        "isMOTM": False
+                        "isMOTM": playerPoints[4]
                     }
                 ]
             })
