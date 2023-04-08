@@ -4,7 +4,7 @@
       "id": 80607,
       "name": "Tushar Deshpande",
       "teamId": 4343,
-      "totalPoints": 79,
+      "totalPoints": 143,
       "scores": [
         {
           "matchId": 1359475,
@@ -57,6 +57,32 @@
           "fieldingPoints": 0,
           "points": 60,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4346,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 31,
+            "balls": 18,
+            "dots": 9,
+            "wickets": 2,
+            "maidens": 0,
+            "wides": 1,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 0,
+          "bowlingPoints": 64,
+          "fieldingPoints": 0,
+          "points": 64,
+          "isMOTM": false
         }
       ]
     },
@@ -64,7 +90,7 @@
       "id": 58403,
       "name": "Devon Conway",
       "teamId": 4343,
-      "totalPoints": 102,
+      "totalPoints": 88,
       "scores": [
         {
           "matchId": 1359475,
@@ -104,6 +130,24 @@
           "fieldingPoints": 15,
           "points": 106,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4346,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 4,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": -14,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": -14,
+          "isMOTM": false
         }
       ]
     },
@@ -111,7 +155,7 @@
       "id": 95094,
       "name": "Ruturaj Gaikwad",
       "teamId": 4343,
-      "totalPoints": 350,
+      "totalPoints": 426,
       "scores": [
         {
           "matchId": 1359475,
@@ -153,6 +197,27 @@
           "bowlingPoints": 0,
           "fieldingPoints": 15,
           "points": 136,
+          "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4346,
+          "battingPerformance": {
+            "runs": 40,
+            "balls": 36,
+            "fours": 2,
+            "sixes": 1,
+            "isOut": false
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {
+            "catches": 1,
+            "runoutsAndStumpings": 0
+          },
+          "battingPoints": 61,
+          "bowlingPoints": 0,
+          "fieldingPoints": 15,
+          "points": 76,
           "isMOTM": false
         }
       ]
@@ -268,7 +333,7 @@
       "id": 8999,
       "name": "Ambati Rayudu",
       "teamId": 4343,
-      "totalPoints": 75,
+      "totalPoints": 105,
       "scores": [
         {
           "matchId": 1359475,
@@ -305,6 +370,24 @@
           "fieldingPoints": 0,
           "points": 60,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4346,
+          "battingPerformance": {
+            "runs": 20,
+            "balls": 16,
+            "fours": 3,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": 30,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": 30,
+          "isMOTM": false
         }
       ]
     },
@@ -312,7 +395,7 @@
       "id": 74975,
       "name": "Shivam Dube",
       "teamId": 4343,
-      "totalPoints": 97,
+      "totalPoints": 144,
       "scores": [
         {
           "matchId": 1359475,
@@ -352,6 +435,24 @@
           "fieldingPoints": 0,
           "points": 59,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4346,
+          "battingPerformance": {
+            "runs": 28,
+            "balls": 26,
+            "fours": 2,
+            "sixes": 1,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": 47,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": 47,
+          "isMOTM": false
         }
       ]
     },
@@ -359,7 +460,7 @@
       "id": 49247,
       "name": "Ravindra Jadeja",
       "teamId": 4343,
-      "totalPoints": 69,
+      "totalPoints": 221,
       "scores": [
         {
           "matchId": 1359475,
@@ -415,6 +516,35 @@
           "fieldingPoints": 15,
           "points": 15,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4346,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 20,
+            "balls": 24,
+            "dots": 9,
+            "wickets": 3,
+            "maidens": 0,
+            "wides": 0,
+            "noballs": 0
+          },
+          "fieldingPerformance": {
+            "catches": 1,
+            "runoutsAndStumpings": 0
+          },
+          "battingPoints": 0,
+          "bowlingPoints": 137,
+          "fieldingPoints": 15,
+          "points": 152,
+          "isMOTM": true
         }
       ]
     },
@@ -422,7 +552,7 @@
       "id": 7593,
       "name": "MS Dhoni",
       "teamId": 4343,
-      "totalPoints": 83,
+      "totalPoints": 98,
       "scores": [
         {
           "matchId": 1359475,
@@ -465,6 +595,27 @@
           "fieldingPoints": 15,
           "points": 42,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4346,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {
+            "catches": 1,
+            "runoutsAndStumpings": 0
+          },
+          "battingPoints": 0,
+          "bowlingPoints": 0,
+          "fieldingPoints": 15,
+          "points": 15,
+          "isMOTM": false
         }
       ]
     },
@@ -472,7 +623,7 @@
       "id": 64864,
       "name": "Mitchell Santner",
       "teamId": 4343,
-      "totalPoints": 99,
+      "totalPoints": 175,
       "scores": [
         {
           "matchId": 1359475,
@@ -528,6 +679,32 @@
           "fieldingPoints": 0,
           "points": 62,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4346,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 28,
+            "balls": 24,
+            "dots": 6,
+            "wickets": 2,
+            "maidens": 0,
+            "wides": 0,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 0,
+          "bowlingPoints": 76,
+          "fieldingPoints": 0,
+          "points": 76,
+          "isMOTM": false
         }
       ]
     },
@@ -535,7 +712,7 @@
       "id": 62022,
       "name": "Deepak Chahar",
       "teamId": 4343,
-      "totalPoints": 27,
+      "totalPoints": 31,
       "scores": [
         {
           "matchId": 1359475,
@@ -587,6 +764,32 @@
           "bowlingPoints": -1,
           "fieldingPoints": 0,
           "points": -1,
+          "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4346,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 10,
+            "balls": 6,
+            "dots": 2,
+            "wickets": 0,
+            "maidens": 0,
+            "wides": 0,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 0,
+          "bowlingPoints": 4,
+          "fieldingPoints": 0,
+          "points": 4,
           "isMOTM": false
         }
       ]
@@ -3396,7 +3599,7 @@
       "id": 87603,
       "name": "Khaleel Ahmed",
       "teamId": 4344,
-      "totalPoints": 127,
+      "totalPoints": 123,
       "scores": [
         {
           "matchId": 1359477,
@@ -3449,6 +3652,32 @@
           "fieldingPoints": 0,
           "points": 44,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4345,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 31,
+            "balls": 12,
+            "dots": 3,
+            "wickets": 0,
+            "maidens": 0,
+            "wides": 2,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 0,
+          "bowlingPoints": -4,
+          "fieldingPoints": 0,
+          "points": -4,
+          "isMOTM": false
         }
       ]
     },
@@ -3456,7 +3685,7 @@
       "id": 95315,
       "name": "Prithvi Shaw",
       "teamId": 4344,
-      "totalPoints": 45,
+      "totalPoints": 32,
       "scores": [
         {
           "matchId": 1359477,
@@ -3496,6 +3725,24 @@
           "fieldingPoints": 0,
           "points": 11,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4345,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 3,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": -13,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": -13,
+          "isMOTM": false
         }
       ]
     },
@@ -3503,7 +3750,7 @@
       "id": 48739,
       "name": "David Warner",
       "teamId": 4344,
-      "totalPoints": 179,
+      "totalPoints": 288,
       "scores": [
         {
           "matchId": 1359477,
@@ -3542,6 +3789,24 @@
           "bowlingPoints": 0,
           "fieldingPoints": 0,
           "points": 66,
+          "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4345,
+          "battingPerformance": {
+            "runs": 65,
+            "balls": 55,
+            "fours": 7,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": 109,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": 109,
           "isMOTM": false
         }
       ]
@@ -3649,7 +3914,7 @@
       "id": 53649,
       "name": "Rilee Rossouw",
       "teamId": 4344,
-      "totalPoints": 48,
+      "totalPoints": 68,
       "scores": [
         {
           "matchId": 1359477,
@@ -3686,6 +3951,24 @@
           "fieldingPoints": 0,
           "points": -11,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4345,
+          "battingPerformance": {
+            "runs": 14,
+            "balls": 12,
+            "fours": 2,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": 20,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": 20,
+          "isMOTM": false
         }
       ]
     },
@@ -3693,7 +3976,7 @@
       "id": 80425,
       "name": "Rovman Powell",
       "teamId": 4344,
-      "totalPoints": -1,
+      "totalPoints": 36,
       "scores": [
         {
           "matchId": 1359477,
@@ -3711,6 +3994,32 @@
           "bowlingPoints": 0,
           "fieldingPoints": 0,
           "points": -1,
+          "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4345,
+          "battingPerformance": {
+            "runs": 2,
+            "balls": 2,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {
+            "runs": 18,
+            "balls": 12,
+            "dots": 4,
+            "wickets": 1,
+            "maidens": 0,
+            "wides": 1,
+            "noballs": 1
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 2,
+          "bowlingPoints": 35,
+          "fieldingPoints": 0,
+          "points": 37,
           "isMOTM": false
         }
       ]
@@ -3763,7 +4072,7 @@
       "id": 67455,
       "name": "Axar Patel",
       "teamId": 4344,
-      "totalPoints": 157,
+      "totalPoints": 171,
       "scores": [
         {
           "matchId": 1359477,
@@ -3811,6 +4120,32 @@
           "fieldingPoints": 0,
           "points": 73,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4345,
+          "battingPerformance": {
+            "runs": 2,
+            "balls": 6,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {
+            "runs": 38,
+            "balls": 24,
+            "dots": 6,
+            "wickets": 0,
+            "maidens": 0,
+            "wides": 0,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": -2,
+          "bowlingPoints": 16,
+          "fieldingPoints": 0,
+          "points": 14,
+          "isMOTM": false
         }
       ]
     },
@@ -3818,7 +4153,7 @@
       "id": 67609,
       "name": "Kuldeep Yadav",
       "teamId": 4344,
-      "totalPoints": 71,
+      "totalPoints": 120,
       "scores": [
         {
           "matchId": 1359477,
@@ -3871,6 +4206,32 @@
           "fieldingPoints": 0,
           "points": 24,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4345,
+          "battingPerformance": {
+            "runs": 3,
+            "balls": 7,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 31,
+            "balls": 24,
+            "dots": 8,
+            "wickets": 1,
+            "maidens": 0,
+            "wides": 0,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": -1,
+          "bowlingPoints": 50,
+          "fieldingPoints": 0,
+          "points": 49,
+          "isMOTM": false
         }
       ]
     },
@@ -3912,7 +4273,7 @@
       "id": 85763,
       "name": "Mukesh Kumar",
       "teamId": 4344,
-      "totalPoints": 32,
+      "totalPoints": 133,
       "scores": [
         {
           "matchId": 1359477,
@@ -3965,6 +4326,35 @@
           "fieldingPoints": 0,
           "points": 14,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4345,
+          "battingPerformance": {
+            "runs": 1,
+            "balls": 1,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 36,
+            "balls": 24,
+            "dots": 8,
+            "wickets": 2,
+            "maidens": 0,
+            "wides": 0,
+            "noballs": 0
+          },
+          "fieldingPerformance": {
+            "catches": 2,
+            "runoutsAndStumpings": 0
+          },
+          "battingPoints": 1,
+          "bowlingPoints": 70,
+          "fieldingPoints": 30,
+          "points": 101,
+          "isMOTM": false
         }
       ]
     },
@@ -4006,7 +4396,7 @@
       "id": 102743,
       "name": "Yashasvi Jaiswal",
       "teamId": 4345,
-      "totalPoints": 128,
+      "totalPoints": 277,
       "scores": [
         {
           "matchId": 1359478,
@@ -4043,6 +4433,27 @@
           "fieldingPoints": 0,
           "points": 19,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4344,
+          "battingPerformance": {
+            "runs": 60,
+            "balls": 31,
+            "fours": 11,
+            "sixes": 1,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {
+            "catches": 1,
+            "runoutsAndStumpings": 0
+          },
+          "battingPoints": 134,
+          "bowlingPoints": 0,
+          "fieldingPoints": 15,
+          "points": 149,
+          "isMOTM": true
         }
       ]
     },
@@ -4050,7 +4461,7 @@
       "id": 53271,
       "name": "Jos Buttler",
       "teamId": 4345,
-      "totalPoints": 206,
+      "totalPoints": 368,
       "scores": [
         {
           "matchId": 1359478,
@@ -4093,6 +4504,24 @@
           "fieldingPoints": 30,
           "points": 62,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4344,
+          "battingPerformance": {
+            "runs": 79,
+            "balls": 51,
+            "fours": 11,
+            "sixes": 1,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": 162,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": 162,
+          "isMOTM": false
         }
       ]
     },
@@ -4100,7 +4529,7 @@
       "id": 60806,
       "name": "Sanju Samson",
       "teamId": 4345,
-      "totalPoints": 208,
+      "totalPoints": 219,
       "scores": [
         {
           "matchId": 1359478,
@@ -4139,6 +4568,27 @@
           "bowlingPoints": 0,
           "fieldingPoints": 0,
           "points": 82,
+          "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4344,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 4,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {
+            "catches": 1,
+            "runoutsAndStumpings": 1
+          },
+          "battingPoints": -14,
+          "bowlingPoints": 0,
+          "fieldingPoints": 25,
+          "points": 11,
           "isMOTM": false
         }
       ]
@@ -4191,7 +4641,7 @@
       "id": 96392,
       "name": "Riyan Parag",
       "teamId": 4345,
-      "totalPoints": 61,
+      "totalPoints": 64,
       "scores": [
         {
           "matchId": 1359478,
@@ -4231,6 +4681,24 @@
           "fieldingPoints": 15,
           "points": 51,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4344,
+          "battingPerformance": {
+            "runs": 7,
+            "balls": 11,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": 3,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": 3,
+          "isMOTM": false
         }
       ]
     },
@@ -4238,7 +4706,7 @@
       "id": 72393,
       "name": "Shimron Hetmyer",
       "teamId": 4345,
-      "totalPoints": 123,
+      "totalPoints": 234,
       "scores": [
         {
           "matchId": 1359478,
@@ -4278,6 +4746,27 @@
           "fieldingPoints": 0,
           "points": 75,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4344,
+          "battingPerformance": {
+            "runs": 39,
+            "balls": 21,
+            "fours": 1,
+            "sixes": 4,
+            "isOut": false
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {
+            "catches": 2,
+            "runoutsAndStumpings": 0
+          },
+          "battingPoints": 81,
+          "bowlingPoints": 0,
+          "fieldingPoints": 30,
+          "points": 111,
+          "isMOTM": false
         }
       ]
     },
@@ -4285,7 +4774,7 @@
       "id": 12894,
       "name": "Ravichandran Ashwin",
       "teamId": 4345,
-      "totalPoints": 97,
+      "totalPoints": 180,
       "scores": [
         {
           "matchId": 1359478,
@@ -4338,6 +4827,32 @@
           "fieldingPoints": 0,
           "points": 41,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4344,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 25,
+            "balls": 24,
+            "dots": 10,
+            "wickets": 2,
+            "maidens": 0,
+            "wides": 3,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 0,
+          "bowlingPoints": 83,
+          "fieldingPoints": 0,
+          "points": 83,
+          "isMOTM": false
         }
       ]
     },
@@ -4345,7 +4860,7 @@
       "id": 59339,
       "name": "Jason Holder",
       "teamId": 4345,
-      "totalPoints": 147,
+      "totalPoints": 159,
       "scores": [
         {
           "matchId": 1359478,
@@ -4401,6 +4916,32 @@
           "fieldingPoints": 0,
           "points": 77,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4344,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 28,
+            "balls": 18,
+            "dots": 4,
+            "wickets": 0,
+            "maidens": 0,
+            "wides": 1,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 0,
+          "bowlingPoints": 12,
+          "fieldingPoints": 0,
+          "points": 12,
+          "isMOTM": false
         }
       ]
     },
@@ -4408,7 +4949,7 @@
       "id": 51092,
       "name": "Trent Boult",
       "teamId": 4345,
-      "totalPoints": 125,
+      "totalPoints": 270,
       "scores": [
         {
           "matchId": 1359478,
@@ -4460,6 +5001,32 @@
           "bowlingPoints": 18,
           "fieldingPoints": 0,
           "points": 18,
+          "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4344,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 29,
+            "balls": 24,
+            "dots": 11,
+            "wickets": 3,
+            "maidens": 1,
+            "wides": 0,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 0,
+          "bowlingPoints": 145,
+          "fieldingPoints": 0,
+          "points": 145,
           "isMOTM": false
         }
       ]
@@ -4531,7 +5098,7 @@
       "id": 61325,
       "name": "Yuzvendra Chahal",
       "teamId": 4345,
-      "totalPoints": 195,
+      "totalPoints": 324,
       "scores": [
         {
           "matchId": 1359478,
@@ -4583,6 +5150,32 @@
           "bowlingPoints": 28,
           "fieldingPoints": 0,
           "points": 28,
+          "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4344,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 27,
+            "balls": 24,
+            "dots": 8,
+            "wickets": 3,
+            "maidens": 0,
+            "wides": 2,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 0,
+          "bowlingPoints": 129,
+          "fieldingPoints": 0,
+          "points": 129,
           "isMOTM": false
         }
       ]
@@ -5194,7 +5787,7 @@
       "id": 50789,
       "name": "Jason Behrendorff",
       "teamId": 4346,
-      "totalPoints": 5,
+      "totalPoints": 51,
       "scores": [
         {
           "matchId": 1359479,
@@ -5221,6 +5814,32 @@
           "fieldingPoints": 0,
           "points": 5,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4343,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 24,
+            "balls": 18,
+            "dots": 9,
+            "wickets": 1,
+            "maidens": 0,
+            "wides": 1,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 0,
+          "bowlingPoints": 46,
+          "fieldingPoints": 0,
+          "points": 46,
+          "isMOTM": false
         }
       ]
     },
@@ -5228,7 +5847,7 @@
       "id": 48405,
       "name": "Rohit Sharma",
       "teamId": 4346,
-      "totalPoints": -8,
+      "totalPoints": 30,
       "scores": [
         {
           "matchId": 1359479,
@@ -5247,6 +5866,24 @@
           "fieldingPoints": 0,
           "points": -8,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4343,
+          "battingPerformance": {
+            "runs": 21,
+            "balls": 13,
+            "fours": 3,
+            "sixes": 1,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": 38,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": 38,
+          "isMOTM": false
         }
       ]
     },
@@ -5254,7 +5891,7 @@
       "id": 75325,
       "name": "Ishan Kishan",
       "teamId": 4346,
-      "totalPoints": 11,
+      "totalPoints": 74,
       "scores": [
         {
           "matchId": 1359479,
@@ -5273,6 +5910,24 @@
           "fieldingPoints": 0,
           "points": 11,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4343,
+          "battingPerformance": {
+            "runs": 32,
+            "balls": 21,
+            "fours": 5,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": 63,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": 63,
+          "isMOTM": false
         }
       ]
     },
@@ -5280,7 +5935,7 @@
       "id": 96335,
       "name": "Cameron Green",
       "teamId": 4346,
-      "totalPoints": 31,
+      "totalPoints": 68,
       "scores": [
         {
           "matchId": 1359479,
@@ -5307,6 +5962,32 @@
           "fieldingPoints": 0,
           "points": 31,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4343,
+          "battingPerformance": {
+            "runs": 12,
+            "balls": 11,
+            "fours": 1,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {
+            "runs": 20,
+            "balls": 18,
+            "dots": 6,
+            "wickets": 0,
+            "maidens": 0,
+            "wides": 1,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 15,
+          "bowlingPoints": 22,
+          "fieldingPoints": 0,
+          "points": 37,
+          "isMOTM": false
         }
       ]
     },
@@ -5314,7 +5995,7 @@
       "id": 61990,
       "name": "Suryakumar Yadav",
       "teamId": 4346,
-      "totalPoints": 16,
+      "totalPoints": 31,
       "scores": [
         {
           "matchId": 1359479,
@@ -5333,6 +6014,27 @@
           "fieldingPoints": 0,
           "points": 16,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4343,
+          "battingPerformance": {
+            "runs": 1,
+            "balls": 2,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {
+            "catches": 1,
+            "runoutsAndStumpings": 0
+          },
+          "battingPoints": 0,
+          "bowlingPoints": 0,
+          "fieldingPoints": 15,
+          "points": 15,
+          "isMOTM": false
         }
       ]
     },
@@ -5340,7 +6042,7 @@
       "id": 104396,
       "name": "Tilak Varma",
       "teamId": 4346,
-      "totalPoints": 197,
+      "totalPoints": 230,
       "scores": [
         {
           "matchId": 1359479,
@@ -5361,6 +6063,24 @@
           "bowlingPoints": 0,
           "fieldingPoints": 15,
           "points": 197,
+          "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4343,
+          "battingPerformance": {
+            "runs": 22,
+            "balls": 18,
+            "fours": 2,
+            "sixes": 1,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": 33,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": 33,
           "isMOTM": false
         }
       ]
@@ -5395,7 +6115,7 @@
       "id": 83439,
       "name": "Tim David",
       "teamId": 4346,
-      "totalPoints": 16,
+      "totalPoints": 74,
       "scores": [
         {
           "matchId": 1359479,
@@ -5417,6 +6137,24 @@
           "fieldingPoints": 15,
           "points": 16,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4343,
+          "battingPerformance": {
+            "runs": 31,
+            "balls": 22,
+            "fours": 1,
+            "sixes": 2,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": 58,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": 58,
+          "isMOTM": false
         }
       ]
     },
@@ -5424,7 +6162,7 @@
       "id": 104752,
       "name": "Hrithik Shokeen",
       "teamId": 4346,
-      "totalPoints": 4,
+      "totalPoints": 42,
       "scores": [
         {
           "matchId": 1359479,
@@ -5451,6 +6189,32 @@
           "fieldingPoints": 0,
           "points": 4,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4343,
+          "battingPerformance": {
+            "runs": 18,
+            "balls": 13,
+            "fours": 3,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 19,
+            "balls": 12,
+            "dots": 4,
+            "wickets": 0,
+            "maidens": 0,
+            "wides": 0,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 29,
+          "bowlingPoints": 9,
+          "fieldingPoints": 0,
+          "points": 38,
+          "isMOTM": false
         }
       ]
     },
@@ -5458,7 +6222,7 @@
       "id": 108342,
       "name": "Arshad Khan",
       "teamId": 4346,
-      "totalPoints": 56,
+      "totalPoints": 49,
       "scores": [
         {
           "matchId": 1359479,
@@ -5485,6 +6249,32 @@
           "fieldingPoints": 0,
           "points": 56,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4343,
+          "battingPerformance": {
+            "runs": 2,
+            "balls": 4,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {
+            "runs": 35,
+            "balls": 13,
+            "dots": 2,
+            "wickets": 0,
+            "maidens": 0,
+            "wides": 3,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 0,
+          "bowlingPoints": -7,
+          "fieldingPoints": 0,
+          "points": -7,
+          "isMOTM": false
         }
       ]
     },
@@ -5492,7 +6282,7 @@
       "id": 47185,
       "name": "Piyush Chawla",
       "teamId": 4346,
-      "totalPoints": 33,
+      "totalPoints": 85,
       "scores": [
         {
           "matchId": 1359479,
@@ -5518,6 +6308,32 @@
           "bowlingPoints": 33,
           "fieldingPoints": 0,
           "points": 33,
+          "isMOTM": false
+        },
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4343,
+          "battingPerformance": {
+            "runs": 5,
+            "balls": 6,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 33,
+            "balls": 24,
+            "dots": 8,
+            "wickets": 1,
+            "maidens": 0,
+            "wides": 0,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 4,
+          "bowlingPoints": 48,
+          "fieldingPoints": 0,
+          "points": 52,
           "isMOTM": false
         }
       ]
@@ -6220,7 +7036,7 @@
       "id": 110107,
       "name": "Abishek Porel",
       "teamId": 4344,
-      "totalPoints": 50,
+      "totalPoints": 57,
       "scores": [
         {
           "matchId": 1359481,
@@ -6242,6 +7058,24 @@
           "fieldingPoints": 15,
           "points": 50,
           "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4345,
+          "battingPerformance": {
+            "runs": 7,
+            "balls": 9,
+            "fours": 1,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": 7,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": 7,
+          "isMOTM": false
         }
       ]
     },
@@ -6249,7 +7083,7 @@
       "id": 63651,
       "name": "Anrich Nortje",
       "teamId": 4344,
-      "totalPoints": 76,
+      "totalPoints": 94,
       "scores": [
         {
           "matchId": 1359481,
@@ -6275,6 +7109,35 @@
           "bowlingPoints": 68,
           "fieldingPoints": 0,
           "points": 76,
+          "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4345,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 1,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {
+            "runs": 44,
+            "balls": 24,
+            "dots": 10,
+            "wickets": 0,
+            "maidens": 0,
+            "wides": 0,
+            "noballs": 0
+          },
+          "fieldingPerformance": {
+            "catches": 1,
+            "runoutsAndStumpings": 0
+          },
+          "battingPoints": -11,
+          "bowlingPoints": 14,
+          "fieldingPoints": 15,
+          "points": 18,
           "isMOTM": false
         }
       ]
@@ -6312,7 +7175,7 @@
       "id": 104817,
       "name": "Dhruv Jurel",
       "teamId": 4345,
-      "totalPoints": 71,
+      "totalPoints": 87,
       "scores": [
         {
           "matchId": 1359482,
@@ -6330,6 +7193,24 @@
           "bowlingPoints": 0,
           "fieldingPoints": 0,
           "points": 71,
+          "isMOTM": false
+        },
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4344,
+          "battingPerformance": {
+            "runs": 8,
+            "balls": 3,
+            "fours": 0,
+            "sixes": 1,
+            "isOut": false
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": 16,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": 16,
           "isMOTM": false
         }
       ]
@@ -6550,6 +7431,286 @@
           "bowlingPoints": 0,
           "fieldingPoints": 0,
           "points": -11,
+          "isMOTM": false
+        }
+      ]
+    },
+    {
+      "id": 66116,
+      "name": "Murugan Ashwin",
+      "teamId": 4345,
+      "totalPoints": 1,
+      "scores": [
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4344,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 11,
+            "balls": 6,
+            "dots": 0,
+            "wickets": 0,
+            "maidens": 0,
+            "wides": 0,
+            "noballs": 1
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 0,
+          "bowlingPoints": 1,
+          "fieldingPoints": 0,
+          "points": 1,
+          "isMOTM": false
+        }
+      ]
+    },
+    {
+      "id": 61797,
+      "name": "Sandeep Sharma",
+      "teamId": 4345,
+      "totalPoints": 64,
+      "scores": [
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4344,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 20,
+            "balls": 24,
+            "dots": 11,
+            "wickets": 1,
+            "maidens": 0,
+            "wides": 1,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 0,
+          "bowlingPoints": 64,
+          "fieldingPoints": 0,
+          "points": 64,
+          "isMOTM": false
+        }
+      ]
+    },
+    {
+      "id": 51454,
+      "name": "Manish Pandey",
+      "teamId": 4344,
+      "totalPoints": -11,
+      "scores": [
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4345,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 1,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": -11,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": -11,
+          "isMOTM": false
+        }
+      ]
+    },
+    {
+      "id": 86109,
+      "name": "Lalit Yadav",
+      "teamId": 4344,
+      "totalPoints": 72,
+      "scores": [
+        {
+          "matchId": 1359485,
+          "opponentTeamId": 4345,
+          "battingPerformance": {
+            "runs": 38,
+            "balls": 24,
+            "fours": 5,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": 72,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": 72,
+          "isMOTM": false
+        }
+      ]
+    },
+    {
+      "id": 69697,
+      "name": "Tristan Stubbs",
+      "teamId": 4346,
+      "totalPoints": 0,
+      "scores": [
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4343,
+          "battingPerformance": {
+            "runs": 5,
+            "balls": 10,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {},
+          "battingPoints": 0,
+          "bowlingPoints": 0,
+          "fieldingPoints": 0,
+          "points": 0,
+          "isMOTM": false
+        }
+      ]
+    },
+    {
+      "id": 103701,
+      "name": "Kumar Kartikeya",
+      "teamId": 4346,
+      "totalPoints": 55,
+      "scores": [
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4343,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 24,
+            "balls": 24,
+            "dots": 6,
+            "wickets": 1,
+            "maidens": 0,
+            "wides": 0,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 0,
+          "bowlingPoints": 55,
+          "fieldingPoints": 0,
+          "points": 55,
+          "isMOTM": false
+        }
+      ]
+    },
+    {
+      "id": 51096,
+      "name": "Ajinkya Rahane",
+      "teamId": 4343,
+      "totalPoints": 153,
+      "scores": [
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4346,
+          "battingPerformance": {
+            "runs": 61,
+            "balls": 27,
+            "fours": 7,
+            "sixes": 3,
+            "isOut": true
+          },
+          "bowlingPerformance": {},
+          "fieldingPerformance": {
+            "catches": 1,
+            "runoutsAndStumpings": 0
+          },
+          "battingPoints": 138,
+          "bowlingPoints": 0,
+          "fieldingPoints": 15,
+          "points": 153,
+          "isMOTM": false
+        }
+      ]
+    },
+    {
+      "id": 54430,
+      "name": "Dwaine Pretorius",
+      "teamId": 4343,
+      "totalPoints": 44,
+      "scores": [
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4346,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 28,
+            "balls": 24,
+            "dots": 9,
+            "wickets": 0,
+            "maidens": 0,
+            "wides": 4,
+            "noballs": 0
+          },
+          "fieldingPerformance": {
+            "catches": 1,
+            "runoutsAndStumpings": 0
+          },
+          "battingPoints": 0,
+          "bowlingPoints": 29,
+          "fieldingPoints": 15,
+          "points": 44,
+          "isMOTM": false
+        }
+      ]
+    },
+    {
+      "id": 58466,
+      "name": "Sisanda Magala",
+      "teamId": 4343,
+      "totalPoints": 40,
+      "scores": [
+        {
+          "matchId": 1359486,
+          "opponentTeamId": 4346,
+          "battingPerformance": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+            "isOut": false
+          },
+          "bowlingPerformance": {
+            "runs": 37,
+            "balls": 24,
+            "dots": 4,
+            "wickets": 1,
+            "maidens": 0,
+            "wides": 0,
+            "noballs": 0
+          },
+          "fieldingPerformance": {},
+          "battingPoints": 0,
+          "bowlingPoints": 40,
+          "fieldingPoints": 0,
+          "points": 40,
           "isMOTM": false
         }
       ]
