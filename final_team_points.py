@@ -1,7 +1,7 @@
 import json
 
 # open auction team list file
-teamListFile = open('IPL_2023_TEAMS/teamList.json')
+teamListFile = open('WC_2023_TEAMS/teamList.json')
 teamListData = json.load(teamListFile)
 
 #  initialise results
