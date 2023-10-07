@@ -3,11 +3,11 @@ from BattingPerformance import BattingPerformance
 class Player:
 
     FOUR_POINTS = 2
-    SIX_POINTS = 3
+    SIX_POINTS = 4
     MILESTONE = 25
     MILESTONE_POINTS = 10
     WICKET_POINTS = 25
-    MAIDEN_POINTS = 15
+    MAIDEN_POINTS = 10
     DOTS_POINTS = 1
     CATCH_POINTS = 15
     RUNOUT_POINTS = 10
@@ -66,14 +66,14 @@ class Player:
             # 1 run = 1 pt
             battingPoints = battingPoints + runs
 
-            # four = 2pts,six = 3pts
+            # four = 2pts, six = 4pts
             battingPoints = battingPoints + (self.battingPerfmance.get_fours() * Player.FOUR_POINTS + self.battingPerfmance.get_sixes() * Player.SIX_POINTS)
 
             # every 25 run milestone = 10pts
             battingPoints = battingPoints + runs//Player.MILESTONE * Player.MILESTONE_POINTS
 
-            # SR bonus = runs - balls
-            battingPoints = battingPoints + (runs - self.battingPerfmance.get_balls())
+            # SR bonus = runs * 1.33 - balls
+            battingPoints = round(battingPoints + (runs*1.33 - self.battingPerfmance.get_balls()))
 
             # out for duck = -10 pts
             if (self.battingPerfmance.get_out_status() == True and runs == 0):
@@ -90,7 +90,7 @@ class Player:
 
             maidens = self.bowlingPerformance.get_maidens()
 
-            # 1 maiden = 15pts
+            # 1 maiden = 10pts
             bowlingPoints = bowlingPoints + (maidens * Player.MAIDEN_POINTS)
 
             dots = self.bowlingPerformance.get_dotsBowled()
@@ -100,22 +100,22 @@ class Player:
 
             ballsBowled = self.bowlingPerformance.get_ballsBowled()
             runsConceded = self.bowlingPerformance.get_runsConceded()
-            economyBonus = (2*ballsBowled) - runsConceded
+            economyBonus = (ballsBowled) - runsConceded
 
-            # economy = 2*balls - runs
+            # economy = balls - runs
             bowlingPoints = bowlingPoints + economyBonus
 
             # 3w = 25pts
             # 5w = 50pts
             # 7w = 100pts
 
-            if wickets - 3 >=0:
+            if wickets - 3 >= 0:
                 bowlingPoints += 25
             
-            if wickets - 5 >=0:
+            if wickets - 5 >= 0:
                 bowlingPoints += 50
             
-            if wickets - 7 >=0:
+            if wickets - 7 >= 0:
                 bowlingPoints += 100
         
         #fielding
