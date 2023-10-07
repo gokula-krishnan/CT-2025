@@ -1,5 +1,5 @@
 import json
-
+from functools import reduce
 # open auction team list file
 teamListFile = open('WC_2023_TEAMS/teamList.json')
 teamListData = json.load(teamListFile)
@@ -10,10 +10,12 @@ results = {}
 #  load playerPoints file
 pointFile = open('./Data/playerPoints.json')
 pointsData = json.load(pointFile)
-
+team_with_players_dict = {}
 # loop through the team list
 for team in teamListData:
     playersList = teamListData[team]
+    # initialise team with players
+    team_with_players_dict[team] = {}
     # initialise team in results blob
     results[team] = ''
     # initialise pointSum for each team
@@ -22,20 +24,18 @@ for team in teamListData:
     for player in playersList:
         for x in pointsData['Players']:
             if x['id'] == player:
-                pointSum.append(x['totalPoints'])
-                pointSum.extend([25 for match in x['scores'] if match['isMOTM']])
+                players_total_point = x['totalPoints'] + reduce(lambda a, b: a+b, [25 if match['isMOTM'] else 0
+                                                                                   for match in x['scores']])
+                pointSum.append(players_total_point)
+                team_with_players_dict[team].update({x['name']: players_total_point})
     # store to the results blob
     results[team] = sum(pointSum)
-
-    # #MVP Orange and purple cap points
-    # if team == "VBR":
-    #     results[team] += 200
-    #
-    # if team == "AAK":
-    #     results[team] += 100
 
 
 # sort by points
 sortList = sorted(results.items(), key=lambda x: x[1],reverse=True)
 for team in sortList:
     print(team)
+
+with open("./Data/team_with_players_points.json", "w") as fw:
+    json.dump(team_with_players_dict, fw)
