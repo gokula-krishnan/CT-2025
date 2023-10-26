@@ -33,7 +33,7 @@ for team in teamListData:
 
 
 # sort by points
-sortList = sorted(results.items(), key=lambda x: x[1],reverse=True)
+sortList = sorted(results.items(), key=lambda x: x[1], reverse=True)
 for team in sortList:
     print(team)
 
