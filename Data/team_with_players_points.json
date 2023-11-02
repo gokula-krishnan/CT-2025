@@ -9,12 +9,12 @@
     "Jos Buttler": 326,
     "Joe Root": 407,
     "Ravichandran Ashwin": 93,
-    "Shubman Gill": 260,
+    "Shubman Gill": 457,
     "Scott Edwards": 554,
     "Mohammad Wasim": 292,
     "Saud Shakeel": 465,
     "Keshav Maharaj": 708,
-    "Pathum Nissanka": 521
+    "Pathum Nissanka": 525
   },
   "CNI": {
     "Rassie van der Dussen": 718,
@@ -26,9 +26,9 @@
     "Tabraiz Shamsi": 264,
     "Fakhar Zaman": 253,
     "Harry Brook": 256,
-    "Mohammed Siraj": 338,
+    "Mohammed Siraj": 519,
     "Shaheen Shah Afridi": 880,
-    "Virat Kohli": 718,
+    "Virat Kohli": 881,
     "Moeen Ali": 85,
     "Mitchell Marsh": 488,
     "Usama Mir": 214
@@ -37,10 +37,10 @@
     "Babar Azam": 403,
     "Mark Chapman": 84,
     "Shakib Al Hasan": 565,
-    "Jasprit Bumrah": 825,
-    "Mohammed Shami": 459,
+    "Jasprit Bumrah": 909,
+    "Mohammed Shami": 729,
     "Matt Henry": 640,
-    "Charith Asalanka": 307,
+    "Charith Asalanka": 285,
     "Aiden Markram": 836,
     "Marco Jansen": 1062,
     "Chris Woakes": 282,
@@ -52,8 +52,8 @@
   "NSD": {
     "David Warner": 1003,
     "Ben Stokes": 80,
-    "Rohit Sharma": 944,
-    "Suryakumar Yadav": 90,
+    "Rohit Sharma": 953,
+    "Suryakumar Yadav": 113,
     "Bas de Leede": 614,
     "Teja Nidamanuru": 88,
     "Vikramjit Singh": 160,
@@ -64,8 +64,8 @@
     "Dhananjaya de Silva": 190,
     "Matheesha Pathirana": 12,
     "Kusal Perera": 200,
-    "Kasun Rajitha": 433,
-    "Angelo Mathews": 145
+    "Kasun Rajitha": 467,
+    "Angelo Mathews": 167
   },
   "PPT": {
     "Fazalhaq Farooqi": 366,
@@ -74,7 +74,7 @@
     "Mitchell Starc": 467,
     "Shoriful Islam": 451,
     "Sam Curran": 117,
-    "Ravindra Jadeja": 652,
+    "Ravindra Jadeja": 769,
     "Max O'Dowd": 47,
     "Logan van Beek": 659,
     "Tom Latham": 373,
@@ -82,7 +82,7 @@
     "Tim Southee": 59,
     "Haris Rauf": 544,
     "Imam-ul-Haq": 289,
-    "Kusal Mendis": 710
+    "Kusal Mendis": 752
   },
   "ESOB": {
     "Hashmatullah Shahidi": 319,
@@ -90,8 +90,8 @@
     "Marcus Stoinis": 163,
     "Dawid Malan": 508,
     "Hardik Pandya": 200,
-    "Shreyas Iyer": 264,
-    "Kuldeep Yadav": 559,
+    "Shreyas Iyer": 489,
+    "Kuldeep Yadav": 577,
     "Ryan Klein": 40,
     "Rachin Ravindra": 1088,
     "Mohammad Nawaz": 297,
@@ -102,7 +102,7 @@
     "Dunith Wellalage": 127
   },
   "UUCC": {
-    "Maheesh Theekshana": 303,
+    "Maheesh Theekshana": 338,
     "Jonny Bairstow": 309,
     "Mark Wood": 404,
     "Josh Hazlewood": 505,
@@ -110,14 +110,14 @@
     "Steven Smith": 252,
     "Shardul Thakur": 115,
     "Litton Das": 394,
-    "KL Rahul": 477,
+    "KL Rahul": 541,
     "Mujeeb Ur Rahman": 494,
     "David Miller": 577,
     "Travis Head": 300,
     "Mohammad Rizwan": 845,
     "Adam Zampa": 635,
     "Reece Topley": 375,
-    "Dushmantha Chameera": 32
+    "Dushmantha Chameera": 78
   },
   "ARDV": {
     "Mohammad Nabi": 394,
@@ -134,7 +134,7 @@
     "Quinton de Kock": 1371,
     "Kagiso Rabada": 658,
     "Dasun Shanaka": 187,
-    "Sadeera Samarawickrama": 705,
+    "Sadeera Samarawickrama": 701,
     "Chamika Karunaratne": 62
   }
 }
