@@ -10,7 +10,7 @@
     "Joe Root": 407,
     "Ravichandran Ashwin": 93,
     "Shubman Gill": 457,
-    "Scott Edwards": 554,
+    "Scott Edwards": 558,
     "Mohammad Wasim": 292,
     "Saud Shakeel": 465,
     "Keshav Maharaj": 708,
@@ -19,7 +19,7 @@
   "CNI": {
     "Rassie van der Dussen": 718,
     "Will Young": 385,
-    "Rahmat Shah": 350,
+    "Rahmat Shah": 453,
     "Towhid Hridoy": 128,
     "Mushfiqur Rahim": 325,
     "Ishan Kishan": 80,
@@ -45,16 +45,16 @@
     "Marco Jansen": 1062,
     "Chris Woakes": 282,
     "Devon Conway": 624,
-    "Wesley Barresi": 81,
+    "Wesley Barresi": 79,
     "Hasan Ali": 423,
-    "Roelof van der Merwe": 313
+    "Roelof van der Merwe": 345
   },
   "NSD": {
     "David Warner": 1003,
     "Ben Stokes": 80,
     "Rohit Sharma": 953,
     "Suryakumar Yadav": 113,
-    "Bas de Leede": 614,
+    "Bas de Leede": 615,
     "Teja Nidamanuru": 88,
     "Vikramjit Singh": 160,
     "Kane Williamson": 125,
@@ -68,15 +68,15 @@
     "Angelo Mathews": 167
   },
   "PPT": {
-    "Fazalhaq Farooqi": 366,
-    "Ibrahim Zadran": 398,
-    "Rashid Khan": 562,
+    "Fazalhaq Farooqi": 380,
+    "Ibrahim Zadran": 430,
+    "Rashid Khan": 636,
     "Mitchell Starc": 467,
     "Shoriful Islam": 451,
     "Sam Curran": 117,
     "Ravindra Jadeja": 769,
-    "Max O'Dowd": 47,
-    "Logan van Beek": 659,
+    "Max O'Dowd": 133,
+    "Logan van Beek": 714,
     "Tom Latham": 373,
     "Mitchell Santner": 947,
     "Tim Southee": 59,
@@ -85,7 +85,7 @@
     "Kusal Mendis": 752
   },
   "ESOB": {
-    "Hashmatullah Shahidi": 319,
+    "Hashmatullah Shahidi": 417,
     "Glenn Maxwell": 804,
     "Marcus Stoinis": 163,
     "Dawid Malan": 508,
@@ -111,7 +111,7 @@
     "Shardul Thakur": 115,
     "Litton Das": 394,
     "KL Rahul": 541,
-    "Mujeeb Ur Rahman": 494,
+    "Mujeeb Ur Rahman": 579,
     "David Miller": 577,
     "Travis Head": 300,
     "Mohammad Rizwan": 845,
@@ -120,8 +120,8 @@
     "Dushmantha Chameera": 78
   },
   "ARDV": {
-    "Mohammad Nabi": 394,
-    "Rahmanullah Gurbaz": 452,
+    "Mohammad Nabi": 607,
+    "Rahmanullah Gurbaz": 468,
     "Alex Carey": -12,
     "Mahedi Hasan": 216,
     "Mehidy Hasan Miraz": 802,
