@@ -4,8 +4,8 @@
     "Pat Cummins": 637,
     "Cameron Green": 125,
     "Marnus Labuschagne": 514,
-    "Najmul Hossain Shanto": 124,
-    "Taskin Ahmed": 277,
+    "Najmul Hossain Shanto": 287,
+    "Taskin Ahmed": 347,
     "Jos Buttler": 336,
     "Joe Root": 439,
     "Ravichandran Ashwin": 93,
@@ -14,14 +14,14 @@
     "Mohammad Wasim": 420,
     "Saud Shakeel": 480,
     "Keshav Maharaj": 802,
-    "Pathum Nissanka": 525
+    "Pathum Nissanka": 626
   },
   "CNI": {
     "Rassie van der Dussen": 733,
     "Will Young": 385,
     "Rahmat Shah": 453,
-    "Towhid Hridoy": 128,
-    "Mushfiqur Rahim": 325,
+    "Towhid Hridoy": 164,
+    "Mushfiqur Rahim": 372,
     "Ishan Kishan": 80,
     "Tabraiz Shamsi": 306,
     "Fakhar Zaman": 616,
@@ -36,11 +36,11 @@
   "TH": {
     "Babar Azam": 534,
     "Mark Chapman": 172,
-    "Shakib Al Hasan": 565,
+    "Shakib Al Hasan": 854,
     "Jasprit Bumrah": 948,
     "Mohammed Shami": 801,
     "Matt Henry": 640,
-    "Charith Asalanka": 285,
+    "Charith Asalanka": 534,
     "Aiden Markram": 869,
     "Marco Jansen": 1084,
     "Chris Woakes": 505,
@@ -62,18 +62,18 @@
     "Trent Boult": 677,
     "Daryl Mitchell": 872,
     "Shadab Khan": 346,
-    "Dhananjaya de Silva": 190,
+    "Dhananjaya de Silva": 261,
     "Matheesha Pathirana": 12,
-    "Kusal Perera": 200,
-    "Kasun Rajitha": 467,
-    "Angelo Mathews": 167
+    "Kusal Perera": 206,
+    "Kasun Rajitha": 439,
+    "Angelo Mathews": 249
   },
   "PPT": {
     "Fazalhaq Farooqi": 380,
     "Ibrahim Zadran": 430,
     "Rashid Khan": 636,
     "Mitchell Starc": 550,
-    "Shoriful Islam": 451,
+    "Shoriful Islam": 555,
     "Sam Curran": 117,
     "Ravindra Jadeja": 1140,
     "Max O'Dowd": 133,
@@ -83,7 +83,7 @@
     "Tim Southee": 104,
     "Haris Rauf": 568,
     "Imam-ul-Haq": 289,
-    "Kusal Mendis": 752
+    "Kusal Mendis": 772
   },
   "ESOB": {
     "Hashmatullah Shahidi": 417,
@@ -103,14 +103,14 @@
     "Dunith Wellalage": 127
   },
   "UUCC": {
-    "Maheesh Theekshana": 338,
+    "Maheesh Theekshana": 456,
     "Jonny Bairstow": 313,
     "Mark Wood": 471,
     "Josh Hazlewood": 606,
     "Lahiru Kumara": 145,
     "Steven Smith": 319,
     "Shardul Thakur": 115,
-    "Litton Das": 394,
+    "Litton Das": 468,
     "KL Rahul": 558,
     "Mujeeb Ur Rahman": 579,
     "David Miller": 596,
@@ -118,14 +118,14 @@
     "Mohammad Rizwan": 860,
     "Adam Zampa": 922,
     "Reece Topley": 375,
-    "Dushmantha Chameera": 78
+    "Dushmantha Chameera": 97
   },
   "ARDV": {
     "Mohammad Nabi": 607,
     "Rahmanullah Gurbaz": 468,
     "Alex Carey": -12,
     "Mahedi Hasan": 216,
-    "Mehidy Hasan Miraz": 802,
+    "Mehidy Hasan Miraz": 870,
     "Mustafizur Rahman": 339,
     "Liam Livingstone": 269,
     "Adil Rashid": 685,
@@ -135,7 +135,7 @@
     "Quinton de Kock": 1390,
     "Kagiso Rabada": 726,
     "Dasun Shanaka": 187,
-    "Sadeera Samarawickrama": 701,
+    "Sadeera Samarawickrama": 773,
     "Chamika Karunaratne": 62
   }
 }
