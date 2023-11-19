@@ -31,6 +31,14 @@ for team in teamListData:
     # store to the results blob
     results[team] = sum(pointSum)
 
+    # final points WC23
+    if team == "CNI":
+        results[team] += 200
+
+    if team == "TH":
+        results[team] += 100
+
+
 
 # sort by points
 sortList = sorted(results.items(), key=lambda x: x[1], reverse=True)
