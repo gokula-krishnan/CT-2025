@@ -1,4 +1,5 @@
 import os
+import json
 from json import loads
 from dotenv import load_dotenv
 import requests
@@ -9,13 +10,30 @@ load_dotenv()
 team_url = os.getenv("TEAM_URL")
 series_id = os.getenv("SERIES_ID")
 
-requestURL = team_url+"?seriesId="+series_id+"&squadId={0}"
+# requestURL = team_url+"?seriesId="+series_id+"&squadId={0}"
 
 teamIds = loads(os.getenv("TEAM_IDS"))
 
-for id in teamIds:
-    teamInfo = requests.get(url=requestURL.format(id)).json()
+all_team_data = []
+folder_path = "Data/SQUAD_DATA"
+
+# Loop through each file in the folder
+for filename in os.listdir(folder_path):
+    if filename.endswith(".json"):  # Check if the file is a JSON file
+        file_path = os.path.join(folder_path, filename)
+        with open(file_path, "r", encoding="utf-8") as json_file:
+            try:
+                data = json.load(json_file)
+                all_team_data.append(data)
+            except json.JSONDecodeError as e:
+                print(f"Error reading {filename}: {e}")
+
+for i, id in enumerate(teamIds):
+    # headers = {
+    #     'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36'}
+    # teamInfo = requests.get(url=requestURL.format(id), headers=headers).json()
     print("Writing team details")
+    teamInfo = all_team_data[i]
     with open('Data/teams.csv', 'a', newline='\n') as teamFile:
         writer = csv.writer(teamFile)
         writer.writerow([teamInfo["content"]["squadDetails"]["squad"]["teamId"], teamInfo["content"]["squadDetails"]["squad"]["teamName"]])

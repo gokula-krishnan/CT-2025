@@ -66,13 +66,32 @@ def get_motm_award(player_id, match_player_awards):
     return is_motm
 
 
+all_match_data = []
+folder_path = "CT_MATCH_DATA"
+
+# Loop through each file in the folder
+for filename in os.listdir(folder_path):
+    if filename.endswith(".json"):  # Check if the file is a JSON file
+        file_path = os.path.join(folder_path, filename)
+        with open(file_path, "r", encoding="utf-8") as json_file:
+            try:
+                data = json.load(json_file)
+                all_match_data.append(data)
+            except json.JSONDecodeError as e:
+                print(f"Error reading {filename}: {e}")
+
+# for i in range(int(matchStartId), int(matchEndId)+1):
+#     print(i)
+#     currentMatchId = i
+#     requestURL = match_url+"?lang=en&seriesId="+series_id+"&matchId={0}".format(str(currentMatchId))
+#
+#     matchResponseData = requests.get(url=requestURL)
+
+
 for i in range(int(matchStartId), int(matchEndId)+1):
     print(i)
     currentMatchId = i
-    requestURL = match_url+"?lang=en&seriesId="+series_id+"&matchId={0}".format(str(currentMatchId))
-
-    matchResponseData = requests.get(url=requestURL)
-    matchData = matchResponseData.json()
+    matchData = all_match_data[i-int(matchStartId)]
     teams = matchData["match"]["teams"]
 
     teamIdCount = teams[0]["team"]["id"] + teams[1]["team"]["id"]

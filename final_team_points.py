@@ -1,7 +1,7 @@
 import json
 from functools import reduce
 # open auction team list file
-teamListFile = open('WC_2023_TEAMS/teamList.json')
+teamListFile = open('CT_2025_TEAMS/teamList.json')
 teamListData = json.load(teamListFile)
 
 #  initialise results
@@ -30,14 +30,6 @@ for team in teamListData:
                 team_with_players_dict[team].update({x['name']: players_total_point})
     # store to the results blob
     results[team] = sum(pointSum)
-
-    # final points WC23
-    if team == "CNI":
-        results[team] += 200
-
-    if team == "TH":
-        results[team] += 100
-
 
 
 # sort by points
