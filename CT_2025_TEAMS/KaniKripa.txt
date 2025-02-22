@@ -1,0 +1,15 @@
+47986,Mushfiqur Rahim,25
+64244,Pat Cummins,2
+58772,Daryl Mitchell,5
+54222,Glenn Maxwell,2
+69308,Corbin Bosch,3
+80639,Glenn Phillips,5
+105968,Jacob Bethell,1
+61634,Heinrich Klaasen,3
+59832,Liam Livingstone,1
+95316,Shubman Gill,6
+107211,William O'Rourke,5
+79159,Rashid Khan,40
+70611,Salman Agha,7
+65029,Jamie Overton,1
+58408,Tabraiz Shamsi,3

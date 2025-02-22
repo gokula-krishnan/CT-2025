@@ -1,0 +1,15 @@
+90231,Fazalhaq Farooqi,40
+54674,Mustafizur Rahman,25
+78285,Marnus Labuschagne,2
+70498,Ryan Rickelton,3
+64947,Matt Henry,5
+66808,Taskin Ahmed,25
+46888,Mohammad Nabi,40
+101340,Aaron Hardie,2
+56880,Babar Azam,7
+90143,Rahmanullah Gurbaz,40
+80817,Nathan Ellis,2
+95855,Shaheen Shah Afridi,7
+111976,Harshit Rana,6
+58403,Devon Conway,5
+64864,Mitchell Santner,5
