@@ -36,7 +36,12 @@ for team in teamListData:
                 team_with_players_dict[team].update({x['name']: players_total_point})
     # store to the results blob
     results[team] = sum(pointSum)
-
+#
+# # Most runs and MOTT
+# results["RohitRam"] += 100
+#
+# # Most wickets
+# results["ChanIjaz"] += 50
 
 # sort by points
 sortList = sorted(results.items(), key=lambda x: x[1], reverse=True)
